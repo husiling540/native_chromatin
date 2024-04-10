@@ -6,7 +6,7 @@
 
 function usage {
     echo -e "usage : Micro-C_analysis_pipeline.sh -i prefixes -p thread -w workdir [-h]"
-	#echo -e "for example : Micro-C_analysis_pipeline.sh -i "K562_MicroC_DMSO_R1 K562_MicroC_DMSO_R2" -p 8 -w ~/data/" 
+	#echo -e "for example : bash Micro-C_analysis_pipeline.sh -i "K562_MicroC_DMSO_R1 K562_MicroC_DMSO_R2" -p 8 -w ~/data/" 
     echo -e "Use option -h|--help for more information"
 }
 
