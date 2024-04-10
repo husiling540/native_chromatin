@@ -6,7 +6,7 @@
 
 function usage {
     echo -e "usage : Paired-end_ChIP-seq_analysis_pipeline.sh -i chip_prefixs -p thread -w workdir [-h]"
-	#echo -e "for example : Paired-end_ChIP-seq_analysis_pipeline.sh -i "K562_NChIP_CTCF_75mMNaCl_R1 K562_NChIP_CTCF_75mMNaCl_R2 K562_NChIP_CTCF_75mMNaCl_R3" -p 8 -w ~/data" 
+	#echo -e "for example : bash Paired-end_ChIP-seq_analysis_pipeline.sh -i "K562_NChIP_CTCF_75mMNaCl_R1 K562_NChIP_CTCF_75mMNaCl_R2 K562_NChIP_CTCF_75mMNaCl_R3" -p 8 -w ~/data" 
     echo -e "Use option -h|--help for more information"
 }
 
