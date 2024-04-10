@@ -5,7 +5,7 @@
 ##-------------------------
 
 function usage {
-    echo -e "usage : Single-end_ChIP-seq_analysis_pipeline.sh -i chip_prefixs -p thread -s stats -w workdir [-h]"
+    echo -e "usage : bash Single-end_ChIP-seq_analysis_pipeline.sh -i chip_prefixs -p thread -s stats -w workdir [-h]"
 	
     echo -e "Use option -h|--help for more information"
 }
