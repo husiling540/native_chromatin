@@ -7,11 +7,11 @@ This repository contains the code and processed/supporting data related to the H
 
 ## ChIP-seq & loMNase-seq
 
-The N-ChIP, X-ChIP and loMNase-seq paired-end sequencing datasets from this study can be preprocessed using the `ChIP-seq/pipeline/Paired-end ChlP-seq_analysis_pipeline.sh` script.
+The N-ChIP, X-ChIP and loMNase-seq paired-end sequencing datasets from this study can be preprocessed using the `ChIP-seq/Paired-end ChlP-seq_analysis_pipeline.sh` script.
 
 	bash Paired-end_ChIP-seq_analysis_pipeline.sh -i "K562_NChIP_CTCF_75mMNaCl_R1 K562_NChIP_CTCF_75mMNaCl_R2 K562_NChIP_CTCF_75mMNaCl_R3" -p 8 -w ~/data
 
-The public X-ChIP single-end sequencing datasets can be preprocessed using the `ChIP-seq/pipeline/Single-end ChlP-seq_analysis_pipeline.sh` script.
+The public X-ChIP single-end sequencing datasets can be preprocessed using the `ChIP-seq/Single-end ChlP-seq_analysis_pipeline.sh` script.
 
 	bash Single-end ChlP-seq_analysis_pipeline.sh -i "K562_XChIP_MAZ_R1 K562_XChIP_MAZ_R2" -p 8 -w ~/data
 
