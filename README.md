@@ -1,7 +1,8 @@
 This repository contains the code and processed/supporting data related to the Hu et al. manuscript "A continuum of zinc finger transcription factor retention on native chromatin underlies dynamic genome organization". All raw and processed data generated in this study can be obtained at Genome Sequence Archive (GSA) under accession number: HRA005744.
 
 - Scripts related to individual figures are arranged in their respective directories
-- CTCF, MAZ, and ZNF143 motif files generated in this study are saved in `motif_file`
+- CTCF, MAZ, and ZNF143 motif files generated in this study are saved in `motif_files`
+- Different types of CTCF motifs are saved in `CTCF_motifs`
 - native or non-native CTCF sites are saved in `CTCF_binding_sites`
 
 ## ChIP-seq & loMNase-seq
